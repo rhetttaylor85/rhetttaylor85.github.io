@@ -113,22 +113,24 @@ to {opacity: 1}
     }
 
 .menu a {
+    font-family: "Century Gothic", Futura, Verdana, sans-serif;    
     float: left;
-    display: block;
     color: black;
-    text-align: left;
+    font-size: 20px;
     padding: 14px 20px;
     text-decoration: none;
+    display: inline-block;
 }
 .menu a:hover {
     background-color: clear;
-    color: black;		
+    color: crimson;
+    border-radius: 4px;
   		
 }
 .myMenu {
+    width: 100%;
     background-color: clear;
-    font-family: "Century Gothic", Futura, Verdana;
-    color: black;
+    padding: 10x;
     text-align: left;
     font-size: 20pt;		
 }
