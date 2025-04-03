@@ -121,12 +121,12 @@ to {opacity: 1}
     text-decoration: none;
 }
 .menu a:hover {
-    background-color: crimson;
+    background-color: clear;
     color: black;		
   		
 }
 #myMenu {
-    background-color: crimson;
+    background-color: clear;
     color: black;
     text-align: left;		
 }
