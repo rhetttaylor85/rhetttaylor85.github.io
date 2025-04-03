@@ -125,10 +125,12 @@ to {opacity: 1}
     color: black;		
   		
 }
-#myMenu {
+.myMenu {
     background-color: clear;
+    font-family: "Century Gothic", Futura, Verdana;
     color: black;
-    text-align: left;		
+    text-align: left;
+    font-size: 20pt;		
 }
 span.a {
   display: inline-block;
