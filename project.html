@@ -1,0 +1,185 @@
+<!-- create a specific web page "project1.html" describing a project you did or plan to do soon = C/W-->
+<!-- project1.html needs atleast 3 headings that are underlined, including a main heading that is aligned to the center of the page body, and uses a 28pt bold font. The others on the page are
+  left-aligned and appear in an 20pt normal font.= C/W-->
+<!-- All headings on the project page should use a specific foreground color and a specific background color = C/W -->
+
+<!-- The font families for headings are Century Gothic, Futura, Verdana, or any sansserif font available on the system.= C/W-->
+
+<!-- The overall page's body should have a white background. Text in the body should have a specific foreground color that is different from the headings’ foreground/background color, 
+ and use an 14pt font. The font families for page text are Georgia, Garamond, or any serif font available on the system. = C/w)-->
+
+ <!-- Any links on the page should use the color matching the color of the page headings. =C/W-->
+
+<!-- your project presentation, needs to include at least one picture on the page. You need to use absolute URL(s) to link to the picture(s); (like on a real server) don't link to relative URL(s)
+  on your hard drive. = C/W-->
+
+<!-- At the bottom of your project page, you need to have at least one “Home” link, which should link to your index.html page. For this “Home” link, you need to use a relative URL and assume it is 
+ located on the same web site as project1.html. = C/W-->
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="project1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Transient Alert Contracft for DMAFB</title>
+</head>
+<body>
+	<h2 id="myMenu">
+	<div class="menu">
+		<a href="index.html"> Home</a>
+			</div>
+	</h2>
+	<br>
+	<br>		
+	<h1>DMAFB Transient Alert Contract Renewal Project</h1>
+<br>
+<br>
+<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 4</div>
+	  <img src="https://media.defense.gov/2011/Nov/21/2000197944/1200/1200/0/111108-F-DC170-265.JPG" style="width:100%">
+	  <div class="text">"Follow Me" truck - Escorts planes to the parking ramp</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 4</div>
+		<img src="https://media.defense.gov/2014/Feb/14/2000875972/1200/1200/0/140129-F-LK329-002.JPG" style="width:100%">
+		<div class="text">A Marshaller stands ready to guide the plane into parking</div>
+	  </div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 4</div>
+	  <img src="https://media.defense.gov/2014/Feb/14/2000875974/1200/1200/0/140129-F-LK329-001.JPG" style="width:100%">
+	  <div class="text">Single Point Refueling connection for refueling a plane</div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">4 / 4</div>
+	  <img src="https://media.defense.gov/2012/Jun/08/2000144289/1200/1200/0/120604-F-HC633-005.JPG" style="width:100%">
+	  <div class="text">Concurrent Servicing Supervisor watches over servicing operations, and is ready to respond if a fire occurs.</div>
+	</div>
+	
+	<a class="prev" onclick="plusSlides(-1)">❮</a>
+	<a class="next" onclick="plusSlides(1)">❯</a>
+	
+	</div>
+	<br>
+	
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	
+	<script>
+	let slideIndex = 1;
+	showSlides(slideIndex);
+	
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+	
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+	
+	function showSlides(n) {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	}
+	</script>
+<br>
+<h2>Defined</h2>
+<br>
+<p class="p1">What is Transient Alert? This is primarily a service provided to catch, recover, and launch all visiting aircraft to an station/airfied that are not assigned there. They control a specific area of the 
+	ramp with specified parking, where they can provide services. These include arrival, processing, departure, and any maintenance visting aircraft may need, such as refueling, or coordinating waste disposal.
+	Additionally, Transient Alert provides Crashed, Damaged, and Disabled Aircraft (CDDAR) reovery services for an air field. For example, if an aircraft taxis to the runway and then becomes disabled 
+	Transient Alert could respond and tow that aircraft off the runway, so that normal runway operations could resume.</p> </div>
+<br>
+<h2>Preperation</h2>
+<br>
+<p>
+	While DMAFB has service members who are trained and qualified to perfom these mission essential services, the installation contracts these service out to contractors to "fill the gap" where current
+	manning may not	be able to fulfill this role/obligation for the installation due to a number of factors/reasons such as high work loads/ operations tempo, deployment scheduling, or short notice 
+	deployment taskings in respone to to real world events.
+	As a resouce advisor/budget analyst for my squadron, Part of my duties is verifying satifactory services are recieved and then approvaing and processing the invoice/bill everymonth in the applicable system
+	when billed by the contractor. I was taked with researching and preparing all documents to renew the Transient Alert conctract that is expiring at the end of May 2025. Even, though I am not trained in
+	contracting, im an aircraft mechanic, i was given this task. A common theme in military service is beign tasked with things you arent specficially trained in but must adapt to, figure it out and 
+	"make it happen." I was basically doing all the leg work for the contracting officers who write the contacts. 
+	
+	The contracting squadron on base expressed that this contract should be a 5 Year contract with 1 base year and with 4 optional years. The current contract was only a 1 year contract to the tune 
+	of a little over $600K and was renewed rather hastily last year due to time contraints.
+
+	I began by researching requirements and then adjusting the cost of each line itemed service by 5% to adust for inflation. This 5% was added onto each option year as well, building on to the 
+	previous years total. This was part of the preperation for the required documents
+</p>
+<br>
+<h2>Required Documents</h2> 
+<br>
+All potential contracts and contract renewals have specific document requirements.
+<ul>
+	
+	<li><b>Services Contract Manpower Review and Validation Checklist (SCMRV)</b> - this checklist is a review that enbles the serviing manpower office to confirm the finctions that will be perfromed are not
+		         Inherently GOvernmental (IG). This review is gided by Public Law and United States Code</li>
+	<br>
+	<li><b>Performance Work Statement (PWS)</b> - This document out lines what exactly the work being performed entails and what the requirements are.</li>
+	<br>
+	<li><b>Mission Essential Services Memo</b>- This is a memo from the commanding officer basically validating that the services provided in the contact are mission esstential, and that there are no miliary members
+		         availble to perform these services to the exact parameters. </li>
+	<br>
+	<li><b>Inherently Governmental Determination (IDG) Checklist</b> - This checklist has a series of yes no questions to determine is the services required could only be performed by the goverment and not commercial entities.</li>
+	<br>
+	<li><b>Certification of Nonpersonal Services</b> - this document is signed by the FUnctional Services Manger and verfies that the requirement does not inculde an unthorixed personal services arrangement, either int he way 
+		         the work statement is written or in the manner in which the resulting contract will be managed and overseen in accordance with  10 U.S.C 129b, 5 U.S.C 3109 and 19 U.S.C 1091</li>
+	<br>
+	<li><b>Full Time Equivalent (FTE) Breakout</b> - lists the amount of contractors needed, their required specialties, and references tasks in paragraghs from the PWS</li>
+	<br>
+	<li><b>Independent Govemernment EstimateIGE</b> - he government's unbiased cost estimate for a contract, prepared without contractor input, used to ensure fair and reasonable pricing and to support budgeting and contract negotiations.
+	             It lists all the Contract Line Item Numbers (CLINS) of the contract and gives the price and quanties of those items. These line quanties are what services or items the contactor must provide to the
+		         goverment. They are referenced in the invoice. The assigned contracting officer representative (COR) esures all priducts or services delivered are as agreed and satfifactory, before the invoive is paid.
+		         Each successive main series of CLIN represents another year.. So year 1 would have clins 001, 0002...etc and Year 2 would have 1001, 1002..etc, Year 3 would be 2001, 2002..and so on.
+	             each successive main series of CLINs is adjusted for projected inflation, which is usually around 5%.</li>
+	</ul>
+<br>
+<h2>The Contracting Phase</h2>
+<br>
+	Once all documents have been prepared they are submited in the appropriate system for contracting review. This systems assigned a requistion number. Contracting then reviews the documents and ensure they are filled out satifactorily.
+	They will then also verify funds availability.
+	Next they will draft up the reqirements and advertise the contract out for competitive bidding. Contractors can also ask questions during this phase for clarification on requirements,
+	Once a bid is accepted then a contract is fully drafted and sent for signature. Once signed its ALL DONE!
+
+	For my project im about to turn in all the documents listed above. I had to do a very extensive review of the Performance Work Statement that took ALOT of time. But im glad I have because I found some seriously
+	out dated material in there. I hope to have everything sumbitted for review by the end of March 2025, and an award of the $3.2M contract signed by the contactor by end of April. The current contract expires at
+	the end of May 2025 
+<br>
+<br>
+<br>
+<h3><a href="index.html">-->HOME<--</a></h3>
+<marquee direction="right"><img src="https://art.pixilart.com/e4b29268e30ff96.gif" alt="jet" width="100" height="100"></marquee>
+<br>
+<br>
+<br>
+<form>
+	<input type="BUTTON" value="Back to top of page" onclick="window.location.href='#top'">
+   </form>
+<!-- Any links on the page should use the color matching the color of the page headings. -->
+
+<!-- your project presentation, needs to include at least one picture on the page. You need to use absolute URL(s) to link to the picture(s); (like on a real server) don't link to relative URL(s) on your hard drive. -->
+
+<!-- At the bottom of your project page, you need to have at least one “Home” link, which should link to your index.html page. For this “Home” link, you need to use a relative URL and assume it is located on the same web site as project1.html. -->
+</style>
+</body>
+</html>
