@@ -1,7 +1,7 @@
 body, html {
 }
 body {
-    display: flex
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,7 @@ to {opacity: 1}
   		
 }
 #myMenu {
-    background-color: crimson
+    background-color: crimson;
     color: black;
     text-align: left;		
 }
@@ -146,7 +146,7 @@ h1 {
 h2 {	
     background-color: grey;
     color: White;
-    font-family: "Centry Gothic", Futura, Verdana;
+    font-family: "Century Gothic", Futura, Verdana;
       text-decoration: underline;
     text-align: left;
     font-size: 20pt;
@@ -159,7 +159,7 @@ h3 {
     text-align: center;	
 }
 .p1  {
-    Color: black;
+    color: black;
     font-family: "Georgia", "Garamond", sans-serif;
      }
 
@@ -174,7 +174,7 @@ h3 {
       display: table;
 }
 .btn {
-    display: inline-block
+    display: inline-block;
 		padding: 20px 40px;
 		font-size: 16px;
 		color: black;
