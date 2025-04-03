@@ -1,19 +1,19 @@
 body, html {
 }
 body {
-    Display: flex
-    flex-direction; column;
+    display: flex
+    flex-direction: column;
     align-items: center;
     justify-content: center;
       background-color: white;
-         Color: black;
+         color: black;
     font-family: "Georgia", "Garamond", sans-serif;
     font-size: 14px;
      }
 a  {
     background-color: transparent;
     color:white;
-    font-family: "Centry Gothic", Futura, Verdana;
+    font-family: "Century Gothic", Futura, Verdana;
       text-decoration: underline;
     text-align: left;
      }		
@@ -121,14 +121,14 @@ to {opacity: 1}
     text-decoration: none;
 }
 .menu a:hover {
-    background-color: crimson
+    background-color: crimson;
     color: black;		
   		
 }
 #myMenu {
     background-color: crimson
     color: black;
-    text-align: :left;		
+    text-align: left;		
 }
 span.a {
   display: inline-block;
@@ -169,7 +169,7 @@ h3 {
       padding: 5px;
 }
 .row::after {
-    content:normal;
+    content:"";
       clear: both;
       display: table;
 }
