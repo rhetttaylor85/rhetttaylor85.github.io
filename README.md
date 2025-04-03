@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <!-- this file must be atleast 20 lines long -->
 
@@ -44,15 +43,15 @@
 		color: black;
 		text-align: center;
 		text-decoration: none;
-		border-radius: 20px;
-		margin-top: 20px;
+		border-radius: 20 px;
+		margin-top: 20 px;
 	}
 	main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100 vw;
+  height: 100 vh;
 }
 
 .card {
@@ -135,8 +134,6 @@ Module #4 HTML assignment
 	<main>
   <div class="card">
     <center><a href="project1.html">Enter</a></center>
-</p>
   </div>
   </main>
-</body>
-</html>
+
